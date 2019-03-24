@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="images/logo.png">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>Jacob Papageorgiou | Frontend Developer</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="left-half">
+
+      <img src="images/logo.png" alt="logo" class="logo" data-aos="fade-right">
+
+      <div class="content">
+        <!-- <img src="images/profile.png" alt="profile" class="profile"> -->
+        <h1 data-aos="fade-right">Front End</h1>
+        <h1 data-aos="fade-right">Developer</h1>
+        <h1 data-aos="fade-right">Designer</h1>
+        <p data-aos="fade-right">👋 I'm Jacob Papageorgiou, a <strong>frontend developer</strong> & <strong>self taught designer</strong> based in London.<br><br>
+          I love <strong>UI/UX</strong> and <strong>object oriented programming</strong>.<br><br>
+          When I'm not chasing divs, pixels & semicolons
+          I like <strong>running</strong>, <strong>songwriting</strong> and <strong>calisthenics.</strong></p>
+      </div>
+
+      <a href="https://www.linkedin.com/in/jacob-papa/" target="_blank" class="link one">/jacob-papa <i class="fab fa-linkedin-in"></i></a>
+      <a href="https://dribbble.com/mostmojo/" target="_blank" class="link two">/mostmojo <i class="fab fa-dribbble"></i></a>
+      <a href="https://github.com/mostmojo/" target="_blank" class="link three">/mostmojo <i class="fab fa-github"></i></a>
+      <a href="https://twitter/most_mojo/" target="_blank" class="link four">/most_mojo <i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/mojodribbles/" target="_blank" class="link five">/mojodribbles <i class="fab fa-instagram"></i></a>
+
+
+    </div>
+    <div class="right-half" id="scene" data-relative-input="true">
+      <img src="images/ebx.png" alt="" class="thumbnail one" data-depth="0.2">
+      <img src="images/jamirito.png" alt="" class="thumbnail two" data-depth="0.3">
+      <img src="images/marshmallow.png" alt="" class="thumbnail six" data-depth="0.4">
+      <img src="images/avocado.png" alt="" class="thumbnail three" data-depth="0.6">
+      <img src="images/gorilla.png" alt="" class="thumbnail four" data-depth="0.8">
+      <img src="images/sungasm.png" alt="" class="thumbnail five" data-depth="0.4">
+    </div>
+  </div>
+
+  <script src="javascript/parallax.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    var scene = document.getElementById('scene');
+    var parallaxInstance = new Parallax(scene);
+
+    AOS.init({
+    duration: 1200,
+    });
+
+  </script>
+</body>
+</html>
