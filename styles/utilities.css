@@ -6,3 +6,7 @@ body {
 h1, h2 {
   font-family: 'Fira Sans', sans-serif;
 }
+
+strong {
+font-weight: 900;
+}
