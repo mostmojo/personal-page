@@ -42,6 +42,11 @@
   left: -110px;
 }
 
+.link.six {
+  top: 370px;
+  left: -96px;
+}
+
 .link:hover {
   left: 0;
   background: linear-gradient(#008489, #81C2C5)
