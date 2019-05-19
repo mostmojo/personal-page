@@ -24,11 +24,9 @@
 }
 
 .content h1 {
-  font-size: 86px;
+  font-size: 90px;
   line-height: 0;
 }
-
-
 
 .content h1:nth-child(1) {
   color: #9AAAB7;
@@ -44,6 +42,6 @@
 
 .content p {
   color: #71808D;
-  font-size: 24px;
+  font-size: 28px;
   margin-left: 10px;
 }
