@@ -30,7 +30,7 @@
 
 @media only screen and (max-width: 37.5em) {
   .content h1 {
-    font-size: 94px;
+    font-size: 86px;
   }
 }
 
@@ -54,6 +54,6 @@
 
 @media only screen and (max-width: 37.5em) {
   .content p {
-    font-size: 32px;
+    font-size: 22px;
   }
 }
