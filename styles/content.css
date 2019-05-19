@@ -24,8 +24,12 @@
 }
 
 .content h1 {
-  font-size: 94px;
+  font-size: 80px;
   line-height: 0;
+}
+
+@media only screen and (max-width: 37.5em) {
+  font-size: 94px;
 }
 
 .content h1:nth-child(1) {
@@ -42,6 +46,10 @@
 
 .content p {
   color: #71808D;
-  font-size: 32px;
+  font-size: 18px;
   margin-left: 10px;
+}
+
+@media only screen and (max-width: 37.5em) {
+  font-size: 32px;
 }
