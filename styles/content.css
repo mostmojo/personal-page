@@ -23,7 +23,7 @@
   width: 40%;
 }
 
-@media only screen and (max-width: 75em) {
+@media only screen and (max-width: 83em) {
   .content {
     position: absolute;
     bottom: 2px;
