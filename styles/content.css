@@ -23,6 +23,15 @@
   width: 40%;
 }
 
+@media only screen and (max-width: 75em) {
+  .content {
+    position: absolute;
+    bottom: 2px;
+    left: 50px;
+    width: 40%;
+  }
+}
+
 .content h1 {
   font-size: 80px;
   line-height: 0;
@@ -30,7 +39,7 @@
 
 @media only screen and (max-width: 75em) {
   .content h1 {
-    font-size: 62px;
+    font-size: 64px;
   }
 }
 
