@@ -32,6 +32,15 @@
   }
 }
 
+@media only screen and (max-width: 24em) {
+  .content {
+    position: absolute;
+    bottom: 125px;
+    left: 50px;
+    width: 40%;
+  }
+}
+
 .content h1 {
   font-size: 64px;
   line-height: 0;
@@ -46,6 +55,12 @@
 @media only screen and (max-width: 37.5em) {
   .content h1 {
     font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 24em) {
+  .content h1 {
+    font-size: 110px;
   }
 }
 
@@ -67,14 +82,8 @@
   margin-left: 10px;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 24em) {
   .content p {
-    font-size: 24px;
-  }
-}
-
-@media only screen and (max-width: 20em) {
-  .content p {
-    font-size: 30px;
+    font-size: 34px;
   }
 }
