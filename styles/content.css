@@ -35,20 +35,20 @@
   }
 }
 
+@media only screen and (max-width: 24em) {
+  .content {
+    bottom: 64px;
+  }
+}
+
 .content h1 {
   font-size: 64px;
   line-height: 0;
 }
 
-@media only screen and (max-width: 75em) {
+@media only screen and (max-width: 24em) {
   .content h1 {
-    font-size: 62px;
-  }
-}
-
-@media only screen and (max-width: 37.5em) {
-  .content h1 {
-    font-size: 60px;
+    font-size: 100px;
   }
 }
 
