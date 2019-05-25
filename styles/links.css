@@ -19,27 +19,27 @@
 
 .link.one {
   top: 120px;
-  left: -96px;
+  left: -117px;
 }
 
 .link.two {
   top: 170px;
-  left: -92px;
+  left: -100px;
 }
 
 .link.three {
   top: 220px;
-  left: -92px;
+  left: -100px;
 }
 
 .link.four {
   top: 270px;
-  left: -98px;
+  left: -110px;
 }
 
 .link.five {
   top: 320px;
-  left: -97px;
+  left: -120px;
 }
 
 .link:hover {
